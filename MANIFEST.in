@@ -1,0 +1,4 @@
+include check_http_json.py
+include nagios-plugins-http-json.spec
+
+recursive-exclude pymodule *.pyc
