@@ -581,7 +581,11 @@ def main(cliargs):
     if args.port:
         url += ":%s" % args.port
     if args.path:
-        url += "/%s" % args.path
+        if args.path.startswith("/"):
+            url += "%s" % args.path
+
+        else:
+            url += "/%s" % args.path
 
     debugPrint(args.debug, "url:%s" % url)
     json_data = ''
