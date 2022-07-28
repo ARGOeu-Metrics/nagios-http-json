@@ -39,5 +39,5 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Mon Jul 18 2022 Katarina Zailac <kzailac@srce.hr> - 2.0.1-1
+* Thu Jul 28 2022 Katarina Zailac <katarina.zailac@gmail.com> - 2.0.1-1
 - Generic probe that checks json
